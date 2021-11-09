@@ -146,12 +146,10 @@ async def remove_username(new_List):
 
 async def addFooter(str):
     footer = """
-━━━━━━━━━━━━━━━
+
 💛𝗝𝗢𝗜𝗡❤️ 𝗦𝗛𝗔𝗥𝗘💛 𝗦𝗨𝗣𝗣𝗢𝗥𝗧❤️
 
 ➡️ https://t.me/""" + CHANNEL
-━━━━━━━━━━━━━━━
-
     return str + footer
 
 bot.run()
